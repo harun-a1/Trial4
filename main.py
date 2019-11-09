@@ -34,7 +34,7 @@ def ChuckNorris():
 
     Joke = responseJoke
     result = str(all_freq)
-    print(Joke + ' \n Counts: ' + result)
+    return print(Joke + ' \n Counts: ' + result)
 
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
