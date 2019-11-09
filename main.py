@@ -32,7 +32,7 @@ def ChuckNorris():
             all_freq[i] = 1
 
     counts = str(all_freq)
-    result = responseJoke + '                       Counts: ' + counts
+    result = responseJoke + '                                             Counts: ' + counts
     return result
 
 if __name__ == '__main__':
