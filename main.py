@@ -30,11 +30,10 @@ def ChuckNorris():
             all_freq[i] += 1
         else: 
             all_freq[i] = 1
-        
 
-    Joke = responseJoke
-    result = str(all_freq)
-    return print(Joke + ' \n Counts: ' + result)
+    counts = str(all_freq)
+    result = responseJoke + '                       Counts: ' + counts
+    return result
 
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
